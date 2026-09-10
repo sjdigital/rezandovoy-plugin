@@ -6,7 +6,7 @@
     "name": "Rezandovoy"
   },
   "homepage": "https://rezandovoy.org",
-  "repository": "https://github.com/sjdigital/rezandovoy-api",
+  "repository": "https://github.com/sjdigital/rezandovoy-plugin",
   "keywords": [
     "oracion",
     "espiritualidad",
@@ -29,5 +29,6 @@
       "Encuentra una serie de oración para mí."
     ]
   },
-  "mcpServers": "./.mcp.json"
+  "mcpServers": "./.mcp.json",
+  "apps": "./.app.json"
 }
