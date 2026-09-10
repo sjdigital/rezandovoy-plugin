@@ -1,0 +1,17 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "rezandovoy",
+  "version": "0.1.0",
+  "description": "Busca y consulta oraciones y series publicadas por Rezandovoy.",
+  "author": {
+    "name": "Rezandovoy",
+    "url": "https://rezandovoy.org"
+  },
+  "homepage": "https://rezandovoy.org",
+  "repository": "https://github.com/sjdigital/rezandovoy-api",
+  "keywords": [
+    "oracion",
+    "espiritualidad",
+    "rezandovoy"
+  ]
+}

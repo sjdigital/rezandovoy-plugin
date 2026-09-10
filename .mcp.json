@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "rezandovoy": {
+      "type": "http",
+      "url": "https://apinueva.rezando.es/mcp"
+    }
+  }
+}

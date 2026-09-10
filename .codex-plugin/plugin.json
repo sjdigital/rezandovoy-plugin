@@ -1,0 +1,33 @@
+{
+  "name": "rezandovoy",
+  "version": "0.1.0",
+  "description": "Busca y consulta oraciones y series publicadas por Rezandovoy.",
+  "author": {
+    "name": "Rezandovoy"
+  },
+  "homepage": "https://rezandovoy.org",
+  "repository": "https://github.com/sjdigital/rezandovoy-api",
+  "keywords": [
+    "oracion",
+    "espiritualidad",
+    "rezandovoy"
+  ],
+  "interface": {
+    "displayName": "Rezandovoy",
+    "shortDescription": "Encuentra una oración para cada momento.",
+    "longDescription": "Consulta el catálogo real y publicado de Rezandovoy, busca oraciones y series, abre una oración concreta y encuentra la oración del día.",
+    "developerName": "Rezandovoy",
+    "category": "Education",
+    "capabilities": [
+      "Read"
+    ],
+    "websiteURL": "https://rezandovoy.org",
+    "brandColor": "#E85D3F",
+    "defaultPrompt": [
+      "Busca una oración para lo que estoy viviendo.",
+      "¿Cuál es la oración de hoy?",
+      "Encuentra una serie de oración para mí."
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}
