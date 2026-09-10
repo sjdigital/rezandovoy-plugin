@@ -1,7 +1,7 @@
 {
   "name": "rezandovoy",
-  "version": "0.1.0",
-  "description": "Busca y consulta oraciones y series publicadas por Rezandovoy.",
+  "version": "0.2.0",
+  "description": "Encuentra y reproduce oraciones y series publicadas por Rezandovoy.",
   "author": {
     "name": "Rezandovoy"
   },
@@ -14,19 +14,25 @@
   ],
   "interface": {
     "displayName": "Rezandovoy",
-    "shortDescription": "Encuentra una oración para cada momento.",
-    "longDescription": "Consulta el catálogo real y publicado de Rezandovoy, busca oraciones y series, abre una oración concreta y encuentra la oración del día.",
+    "shortDescription": "Escucha una oración para cada momento.",
+    "longDescription": "Consulta el catálogo real de Rezandovoy, encuentra una oración para lo que estás viviendo y escúchala directamente en el reproductor integrado.",
     "developerName": "Rezandovoy",
     "category": "Education",
     "capabilities": [
-      "Read"
+      "Read",
+      "Interactive"
     ],
     "websiteURL": "https://rezandovoy.org",
-    "brandColor": "#E85D3F",
+    "privacyPolicyURL": "https://rezandovoy.org/politica-privacidad",
+    "termsOfServiceURL": "https://www.rezandovoy.org/aviso-legal.pdf",
+    "brandColor": "#C92323",
+    "composerIcon": "./assets/rv-icon.png",
+    "logo": "./assets/rv-icon.png",
+    "logoDark": "./assets/rv-icon.png",
     "defaultPrompt": [
+      "Ponme la oración de hoy.",
       "Busca una oración para lo que estoy viviendo.",
-      "¿Cuál es la oración de hoy?",
-      "Encuentra una serie de oración para mí."
+      "Quiero una oración por mi cumpleaños."
     ]
   },
   "mcpServers": "./.mcp.json",

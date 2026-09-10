@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "rezandovoy",
-  "version": "0.1.0",
-  "description": "Busca y consulta oraciones y series publicadas por Rezandovoy.",
+  "version": "0.2.0",
+  "description": "Encuentra y reproduce oraciones y series publicadas por Rezandovoy.",
   "author": {
     "name": "Rezandovoy",
     "url": "https://rezandovoy.org"
